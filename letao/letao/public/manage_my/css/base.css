@@ -1,0 +1,79 @@
+/* 初始化代码 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+input,
+a,
+div,
+span,
+img,
+i,
+em,
+strong {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover{
+	text-decoration: none;
+}
+input {
+	border: 0 none;
+	outline: none;
+}
+img {
+	display: block;
+	vertical-align: middle;
+	border: 0 none;
+}
+li {
+	list-style: none;
+}
+.w {
+	width: 1226px;
+	margin: 0 auto; 
+}
+.clearfix:after {
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+	font-weight: normal;
+}
+i,
+em {
+	font-style: normal;
+}
+body {
+	background-color: #f6f6f6f;
+	font: 12px/100% "微软雅黑";
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.ta {
+	text-align: center;
+}
+/* 初始化代码结束 */

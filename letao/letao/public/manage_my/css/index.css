@@ -1,0 +1,129 @@
+html,body{
+    height: 100%;
+    position: relative;
+}
+.lt-left{
+    width: 180px;
+    height: 100%;
+    background-color: #222d32;
+    position: absolute;
+    z-index: 10;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+    text-align: center;
+}
+.header h2 a{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+.header h2 a:hover{
+    color:#fff;
+}
+.user{
+   width: 100%;
+   height: 110px;
+   background-color: #333;
+   padding: 30px;
+}
+.user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.user span{
+    float: right;
+    font-size: 13px;
+    color:#fff;
+    margin-top: 20px;
+}
+.content ul li{
+    width: 100%;
+    border:4px solid transparent;
+}
+.content ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+.content ul li a:hover{
+    color: #ccc;
+}
+.content ul li.active{
+  background-color: black;
+}
+.content ul li.fenji ol{
+    margin-top: 0;
+    width: 100%;
+    padding-left:0;
+}
+.content ul li.fenji ol li{
+    width:100%;  
+}
+.content ul li.fenji ol li a{
+   display: block;
+   line-height: 30px;
+   font-size: 12px;
+   color: gray;
+   text-align: center;
+   width: 100%;
+}
+/*右边开始*/
+/*头部*/
+.lt-right{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-left: 180px;
+    top:0;
+    width: 100%;
+}
+.lt-right .header{
+    background-color: yellowgreen;
+    height: 50px;
+    padding: 0 20px;
+    float: left;
+}
+.lt-right .header a{
+    line-height: 50px;
+    font-size: 18px;
+    color: white;
+}
+.lt-right .content{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content .breadcrumb{
+     padding: 8px 15px;
+     margin-top:80px;
+     height: 36px;
+     line-height: 20px;
+     font-size: 14px;
+}
+
+.lt-right #zhuzhuang{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+}
+.lt-right #bingzhuang{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+}
